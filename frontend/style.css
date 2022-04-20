@@ -31,7 +31,7 @@ box-sizing: border-box
     color: #feeb97;
 }
   
-  /* Current page háttere és színe */
+  /* Aktív page háttere és színe */
 .topnav a.active {
     background-color: #034561;
     color: #feeb97
@@ -42,10 +42,13 @@ box-sizing: border-box
     display: none;
   }
 
+  /*About us*/
 .section{
     padding: 20px 0;
+    
 }
 
+/*Contacts*/
 .section b{
     background: #333;
     color: white;
