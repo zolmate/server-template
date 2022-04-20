@@ -4,9 +4,51 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>This is FRONTEND</title>
+	<title>Zöld Menedék</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fjalla+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-	<div id="root"></div>
+<body>  
+	<header>
+		<div class="topnav" id="myTopnav">
+			<a href="#about" class="active">About</a>
+			<a href="#help">How can you help?</a>
+			<a href="#dogcat">Dogs&Cats</a>
+			<a href="#success">Success stories</a>
+			<a href="#contacts">Contacts</a>
+		  </div>
+	</header>
+
+
+		<!--A videó -->
+	<video autoplay muted loop id="myVideo">
+		<source src="smiling-dog.mp4" type="video/mp4">
+  	</video>
+  
+  <!-- A videó felett megjelenő szöveg -->
+  <div class="content">
+	<h1>Heading</h1>
+	<p>Lorem ipsum...</p>
+  </div>
+
+
+<!-- About us és Contacts szekciók-->
+	<section class="section section-a">
+		<div class="container">
+		<h1>About us</h1>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nihil repudiandae explicabo vitae in placeat! Quis aperiam alias tempore soluta modi pariatur, laudantium quibusdam corrupti, quos dignissimos possimus adipisci tempora mollitia provident ipsam, beatae sapiente animi. Debitis, nisi doloribus. Porro in pariatur dicta molestias molestiae asperiores, sunt voluptates minima eum?</p>
+		</div>
+	</section>
+
+	<section class="section section-b">
+		<div class="container">
+		<h1>Contacts</h1>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nihil repudiandae explicabo vitae in placeat! Quis aperiam alias tempore soluta modi pariatur, laudantium quibusdam corrupti, quos dignissimos possimus adipisci tempora mollitia provident ipsam, beatae sapiente animi. Debitis, nisi doloribus. Porro in pariatur dicta molestias molestiae asperiores, sunt voluptates minima eum?</p>
+		<i class="fa-brands fa-facebook"></i>
+		</div>
+	</section>
+
 </body>
 </html>
